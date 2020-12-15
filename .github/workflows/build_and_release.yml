@@ -6,9 +6,6 @@ on:
       tag_name:
         description: release tag name
         required: false
-  push:
-    tags:
-      - 'v*'
   schedule:
     - cron: '0 0 * * 0'
 
