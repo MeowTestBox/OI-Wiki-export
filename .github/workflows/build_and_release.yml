@@ -15,7 +15,7 @@ on:
 jobs:
   create:
     runs-on: ubuntu-latest
-     outputs:
+    outputs:
       tag_name: ${{ steps.create_tag.outputs.tag_name }}
 
     steps:
